@@ -1,0 +1,28 @@
+{
+  "name": "rockpaperscissors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielmora240396/RockPaperScissors.git"
+  },
+  "author": "Daniel Mora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielmora240396/RockPaperScissors/issues"
+  },
+  "homepage": "https://github.com/danielmora240396/RockPaperScissors#readme",
+  "devDependencies": {
+    "webpack": "^5.2.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
